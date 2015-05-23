@@ -11,8 +11,8 @@
         android:title="stop">
     </item>
     <item
-        android:id="@+id/menu_refresh"
-        android:title="refresh">
+        android:id="@+id/menu_turnon"
+        android:title="turn on blth">
     </item>
 
 </menu>

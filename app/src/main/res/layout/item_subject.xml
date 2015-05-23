@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical|center_horizontal"
+        android:weightSum="6"
+    android:padding="5dp"
+    android:id="@+id/item_LL_cell">
+
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/img"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginLeft="120dp">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/tv_title"
+                android:layout_marginBottom="10dp"
+                android:textSize="17sp"
+                android:layout_weight="3"
+                android:textColor="@color/textColorPrimary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Аудитория"
+                android:id="@+id/tv_description"
+                android:layout_marginBottom="10dp"
+                android:textSize="14sp"
+                android:layout_weight="3"
+                android:textColor="@color/textColorSecondary" />
+        </LinearLayout>
+
+</RelativeLayout>
